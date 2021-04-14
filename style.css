@@ -62,11 +62,11 @@ h2 {
 }
 
 .main-display {
+  position: relative;
   display: flex;
 }
 
 .main-display nav {
-  padding-top: 70px;
   height: 100vh;
   overflow: scroll;
   flex: 1;
@@ -74,13 +74,14 @@ h2 {
   border-right: gray solid 2px;
 }
 
-.main-display nav {
-
+.main-display nav li {
+  padding: 15px;
+  font-size: 1.25rem;
+  border-top: 1px solid black;
 }
 
 .main-display nav .title {
-  position: fixed;
-  top: 0;
+  position: relative;
   padding: 15px;
   background-color: white;
 }
